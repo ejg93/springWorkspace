@@ -1,0 +1,21 @@
+mvn clean
+mvn install
+mvn update
+./mvnw spring-boot:run
+mvnw spring-boot:run
+mvnw.cmd spring-boot:run
+
+C:\workspace\myhomes\src\main\webapp\WEB-INF\views
+
+C:\workspace\myhomes-front\src\main\java\com\myhomes\app\home\controller
+
+포트폴리오
++나에 대한 링크 혹은 파일 다운로드
++대략적인 설명
++css 스타일 모드 변환 
++현재 위치에 따른 날씨 현황
++유튜브 관련 API로 뭐 좀 하자
++현재 공공데이터에 대한 그래프 구현
++내가 좋아했던 웹툰의 게임 구현
++연동 로그인
++유튜브 하이라이트 뽑아주는 거

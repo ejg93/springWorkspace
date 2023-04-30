@@ -1,0 +1,27 @@
+# dsa
+spring:
+  profiles:
+    active:
+  thymeleaf:
+    prefix: classpath:/WEB-INF/views/templates/
+    suffix: .html
+  
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+      
+  servlet:
+    multipart:
+      max-file-size: 1GB
+      max-request-size: 1GB
+    
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/myhomes?autoReconnect=true&useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true&validationQuery=select 1
+    username: adms
+    password: adms!123
+ 
+server:
+  port: 8080
+
