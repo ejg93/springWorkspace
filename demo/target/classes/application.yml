@@ -2,9 +2,6 @@
 spring:
   profiles:
     active:
-  thymeleaf:
-    prefix: classpath:/WEB-INF/views/templates/
-    suffix: .html
   
   mvc:
     view:
